@@ -1,0 +1,209 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Utility Classes */
+.prim-head{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Baloo 2', cursive;
+}
+.para{
+    line-height: 1.6em;
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+}
+.center{
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+}
+.title::before{
+    content: "";
+    background: black;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(110px);
+}
+.title::after{
+    content: "";
+    background: black;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(9px);
+}
+.image{
+    height: 100px;
+    width: 100px;
+}
+.image1{
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+}
+.box{
+    background-color: #676161;
+    border-radius: 10px;
+}
+.box p , h2{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.6em;
+    font-family: 'Baloo 2', cursive;
+}
+hr{
+    background-color: white;
+}
+
+/* Navbar Styling */
+#nav-bar{
+    background-color: #100e0d;
+    
+}
+.navbar-brand{
+    font-family: 'Goldman', cursive;
+}
+#nav-bar li a{
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px 15px;
+    float: right;
+    text-align: left;
+}
+#nav-bar li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+/* Home Styling */
+#home{
+    background: url("./bg1.JPG") no-repeat center center/cover;
+    color: white;
+    padding: 50px;
+}
+#home h1{
+    padding-top: 100px;
+}
+#home .btn-primary{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+    margin: 10px;
+}
+#home .btn-primary:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Main block for parallax */
+.block{
+    background: url("./bg2.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+/* About Styling */
+#about p{
+    font-size: 20px;
+    line-height: 1.6em;
+    font-weight: 500;
+}
+
+/* Services styling */
+#services{
+    margin-top: 15px;
+}
+#services p{
+    line-height: 1.6em;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Gallery Styling */
+#gallery .btn-primary {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+    margin: 10px;
+}
+#gallery .btn-primary:hover{
+    background-color: white;
+    color: black;
+}
+/* Gallery Jumbo Styling */ 
+#jumbo .btn-primary {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+    margin: 10px;
+} 
+#jumbo .btn-primary:hover{
+    background-color: white;
+    color: black;
+}
+#jumbo{
+    font-family: 'Baloo 2', cursive;
+    background: url("./bg2.JPG") no-repeat center center/cover;
+    background-attachment: fixed;
+    margin-bottom: 0;
+}
+#jumbo .big{
+    font-size: 2rem;
+}
+
+/* Contact Styling */
+#contact label{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Baloo 2', cursive;
+}
+#contact .btn-primary {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+    margin: 10px;
+} 
+#contact .btn-primary:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Footer Styling */
+.blog-footer {
+    padding: 2.5rem 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-top: .05rem solid #e5e5e5;
+    font-family: 'Baloo 2', cursive;
+}
+
+.blog-footer i{
+    padding: 15px;
+}
+
+.blog-footer i:hover{
+    color: grey;
+}
