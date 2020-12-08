@@ -163,8 +163,8 @@ hr{
 }
 #jumbo{
     font-family: 'Baloo 2', cursive;
-    background: url("./bg2.JPG") no-repeat center center/cover;
-    background-attachment: fixed;
+    /* background: url("./bg2.JPG") no-repeat center center/cover;
+    background-attachment: fixed; */
     margin-bottom: 0;
 }
 #jumbo .big{
